@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
 	
 	private final AtomicLong count = new AtomicLong();
-	private static final String template = "Hello, %s!";
+	private static final String template = "Hellooooo, %s!";
 
 	@RequestMapping("/greeting")
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
